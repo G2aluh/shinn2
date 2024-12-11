@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/shinnra2/static/css/main.489e55dd.css",
+    "main.js": "/shinnra2/static/js/main.ef882fca.js",
+    "static/js/787.fb771931.chunk.js": "/shinnra2/static/js/787.fb771931.chunk.js",
+    "static/media/texas.jpg": "/shinnra2/static/media/texas.a4c6f1f455d730d83203.jpg",
+    "static/media/web saya.png": "/shinnra2/static/media/web saya.b8a5a394fdbd2dc395ea.png",
+    "static/media/color-sharp.png": "/shinnra2/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/shinnra2/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/po3.png": "/shinnra2/static/media/po3.8c5f81229ac4e9282354.png",
+    "static/media/web gua3.png": "/shinnra2/static/media/web gua3.ee0742e94f7eafe4cce8.png",
+    "static/media/header-img.svg": "/shinnra2/static/media/header-img.5e994dfd8575c3093ae75168b286a9e7.svg",
+    "static/media/CentraNo2-Bold.ttf": "/shinnra2/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/shinnra2/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/shinnra2/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/contact-img.svg": "/shinnra2/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/dino.png": "/shinnra2/static/media/dino.2f56578ec976e8d027ee.png",
+    "static/media/logoz.jpg": "/shinnra2/static/media/logoz.e9824694ebca3b07d708.jpg",
+    "static/media/ashin.png": "/shinnra2/static/media/ashin.0ae9f2f7976591cdacfd.png",
+    "static/media/badag.png": "/shinnra2/static/media/badag.bdd1bdae695adcc12a3e.png",
+    "static/media/revicons.eot": "/shinnra2/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/shinnra2/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/shinnra2/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/meter2.svg": "/shinnra2/static/media/meter2.050f40582cdf22ab72412f92f2489116.svg",
+    "static/media/meter1.svg": "/shinnra2/static/media/meter1.5ce7e1fbbd7a1363dc13f5c0525c4e7c.svg",
+    "static/media/meter3.svg": "/shinnra2/static/media/meter3.f6fb9a7d11a35290fa672827d109c49d.svg",
+    "static/media/logo.svg": "/shinnra2/static/media/logo.9dcd74adbfdf339218f6e0f81aec634e.svg",
+    "static/media/nav-icon3.svg": "/shinnra2/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "index.html": "/shinnra2/index.html",
+    "static/media/nav-icon1.svg": "/shinnra2/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/arrow2.svg": "/shinnra2/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
+    "static/media/arrow1.svg": "/shinnra2/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
+    "static/media/nav-icon2.svg": "/shinnra2/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.489e55dd.css.map": "/shinnra2/static/css/main.489e55dd.css.map",
+    "main.ef882fca.js.map": "/shinnra2/static/js/main.ef882fca.js.map",
+    "787.fb771931.chunk.js.map": "/shinnra2/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.489e55dd.css",
+    "static/js/main.ef882fca.js"
+  ]
+}
