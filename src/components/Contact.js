@@ -14,6 +14,7 @@ export const Contact = () => {
   };
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState('Kirim');
+  
   const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
@@ -57,7 +58,6 @@ export const Contact = () => {
       setStatus({ success: false, message: 'Terjadi kesalahan jaringan, silakan coba lagi.' });
     }
 
-    setButtonText("Kirim");
   };
 
   return (
@@ -92,7 +92,12 @@ export const Contact = () => {
                       </Col>
                       <Col size={12} className="px-1">
                         <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
-                        <button type="submit"><span>{buttonText}</span></button>
+                        <div className="button-wrapper">
+  <button className="tombol" type="submit">
+    <span>{buttonText}</span>
+  </button>
+</div>
+
                       </Col>
                       {
                         status.message &&

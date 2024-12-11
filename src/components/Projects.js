@@ -40,12 +40,6 @@ export const Projects = () => {
       url: "https://g2aluh.github.io/galuhssaputra.github.io/",
     },
     {
-      title: "Tanduk",
-      description: "Design Logo",
-      imgUrl: projImg5,
-      url: "#", // Tambahkan URL jika ada
-    },
-    {
       title: "Website Portofolio",
       description: "Website kedua saya",
       imgUrl: projImg6,
