@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["DARI SMK BRANTAS KARANGKATES", "Menyukai Design","Dan Coding"];
+  const toRotate = ["DARI SMK BRANTAS KARANGKATES", "Menyukai Design", "Dan Coding"];
   const period = 2000;
 
   useEffect(() => {
@@ -51,36 +51,36 @@ export const Banner = () => {
     }
   };
 
+  const handleScrollToConnect = () => {
+    const element = document.getElementById("connect"); // Ambil elemen dengan ID 'connect'
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" }); // Scroll dengan animasi halus
+    }
+  };
+
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="aligh-items-center">
+        <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__fadeIn" : ""
-                  }
-                >
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Selamat datang di portfolio saya</span>
                   <h1>
-                    {` Galuh Saputra `}{"           "}
-                    <span
-                      className="txt-rotate"
-                      dataPeriod="1000"
-                      data-rotate='[ "DARI SMK BRANTAS KARANGKATES", "Menyukai Design", " Dan Coding" ]'
-                    >
+                    {` Galuh Saputra `}
+                    <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "DARI SMK BRANTAS KARANGKATES", "Menyukai Design", " Dan Coding" ]'>
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    Saya adalah Siswa SMK Brantas Karangkates yang sedang magang pada PT Universal Big Data dengan tujuan mencari ilmu sebanyak mungkin, di Pt Universal Big Data saya memegang projek Tad Ai sebagai back-end yang sedang dalam proses pengembangan
+                    Saya adalah Siswa SMK Brantas Karangkates yang sedang magang pada PT Universal Big Data dengan tujuan mencari ilmu sebanyak mungkin, di PT Universal Big Data saya memegang projek Tad Ai sebagai back-end yang sedang dalam proses pengembangan
                   </p>
-                  <button className="contact-button" onClick={() => console.log("connect")}>
-  Hubungi Saya <ArrowRightCircle size={25} />
-</button>
 
+                  {/* Tombol Hubungi Saya */}
+                  <button className="contact-button" onClick={handleScrollToConnect}>
+                    Hubungi Saya <ArrowRightCircle size={25} />
+                  </button>
                 </div>
               )}
             </TrackVisibility>
@@ -88,11 +88,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__zoomIn" : ""
-                  }
-                >
+                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
                   <img src={headerImg} alt="Header Img" />
                 </div>
               )}
