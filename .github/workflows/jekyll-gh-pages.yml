@@ -27,3 +27,9 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site
+        
+source "https://rubygems.org"
+
+gem "jekyll"
+gem "webrick" # Dibutuhkan untuk server lokal Jekyll
+gem "github-pages", group: :jekyll_plugins
