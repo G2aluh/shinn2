@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shinn2/static/css/main.2bf56f1a.css",
-    "main.js": "/shinn2/static/js/main.ea10916b.js",
+    "main.js": "/shinn2/static/js/main.c39f063c.js",
     "static/js/787.fb771931.chunk.js": "/shinn2/static/js/787.fb771931.chunk.js",
     "static/media/texas.jpg": "/shinn2/static/media/texas.a4c6f1f455d730d83203.jpg",
     "static/media/web saya.png": "/shinn2/static/media/web saya.0cfc358f43cba9538b15.png",
@@ -32,11 +32,11 @@
     "static/media/arrow1.svg": "/shinn2/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/shinn2/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.2bf56f1a.css.map": "/shinn2/static/css/main.2bf56f1a.css.map",
-    "main.ea10916b.js.map": "/shinn2/static/js/main.ea10916b.js.map",
+    "main.c39f063c.js.map": "/shinn2/static/js/main.c39f063c.js.map",
     "787.fb771931.chunk.js.map": "/shinn2/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2bf56f1a.css",
-    "static/js/main.ea10916b.js"
+    "static/js/main.c39f063c.js"
   ]
 }
